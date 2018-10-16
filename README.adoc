@@ -1,0 +1,34 @@
+= README Script Tester
+
+
+
+== Run locally 
+
+=== With yarn
+
+[sources,bash]
+----
+yarn install
+----
+
+=== With npm
+
+[sources,bash]
+----
+npm install
+----
+
+== Generate script from README 
+
+=== With yarn 
+[sources,bash]
+----
+yarn start -s <path to your readme file>
+----
+
+=== With npm 
+
+[sources,bash]
+----
+npm run start -s <path to your readme file> 
+----

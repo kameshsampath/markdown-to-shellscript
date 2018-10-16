@@ -1,0 +1,21 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "gfm-code-block-regex": "^1.0.0",
+    "handlebars": "^4.0.12",
+    "marked": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node --presets es2015 index.js"
+  }
+}
